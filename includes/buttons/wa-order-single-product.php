@@ -39,6 +39,28 @@ function wa_order_add_button_plugin() {
 		$phone = $phonenumb;
 	}
 
+	// ambil data NO WHATSAPP vendor dari plugin 
+    // Profile Extra Fields (https://wordpress.org/plugins/profile-extra-fields/)
+	if( is_plugin_active('profile-extra-fields/profile-extra-fields.php') ):
+		global $wpdb;
+
+		$vendor_user_id = get_the_author_meta('ID');
+
+		$sql = "
+			SELECT 
+				ud.*
+			FROM
+				". $wpdb->base_prefix ."prflxtrflds_user_field_data AS ud
+			WHERE 
+				ud.user_id = $vendor_user_id AND 
+				ud.field_id = 2
+		";
+		$vendor_no_wa = $wpdb->get_row($sql);
+		if(!empty($vendor_no_wa)){
+			$phone = $vendor_no_wa->user_value;
+		}
+	endif;
+
 	// Choose final phone number to show
 	// if ($phone = get_post_meta( $postid_meta->ID, 'wa_order_phone_number_input', true ));
 	// else $phone = $phonenumb;

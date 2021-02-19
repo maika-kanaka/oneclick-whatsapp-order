@@ -15,6 +15,28 @@ function wa_order_display_button_shop_page() {
 		$pid = $postid->ID;
 	}
 	$phonenumb = get_post_meta($pid, 'wa_order_phone_number_input', true);
+
+	// ambil data NO WHATSAPP vendor dari plugin 
+    // Profile Extra Fields (https://wordpress.org/plugins/profile-extra-fields/)
+	if( is_plugin_active('profile-extra-fields/profile-extra-fields.php') ):
+		global $wpdb;
+
+		$vendor_user_id = get_post_field('post_author', $product->ID);
+
+		$sql = "
+			SELECT 
+				ud.*
+			FROM
+				". $wpdb->base_prefix ."prflxtrflds_user_field_data AS ud
+			WHERE 
+				ud.user_id = $vendor_user_id AND 
+				ud.field_id = 2
+		";
+		$vendor_no_wa = $wpdb->get_row($sql);
+		if(!empty($vendor_no_wa)){
+			$phonenumb = $vendor_no_wa->user_value;
+		}
+	endif;
 	
 	//Set Default Button Text
 	$button_text = get_option(sanitize_text_field('wa_order_option_button_text_shop_loop'));

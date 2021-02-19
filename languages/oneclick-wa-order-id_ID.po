@@ -1,0 +1,1729 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OneClick WhatsApp Order\n"
+"POT-Creation-Date: 2020-12-06 22:53+0700\n"
+"PO-Revision-Date: 2020-12-06 22:57+0700\n"
+"Last-Translator: \n"
+"Language-Team: wpinem@gmail.com\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/wa-admin-page.php:305
+msgid "OneClick Chat to Order"
+msgstr "OneClick Chat to Order"
+
+#: admin/wa-admin-page.php:308
+msgid "Welcome"
+msgstr "Welcome"
+
+#: admin/wa-admin-page.php:309
+msgid "Numbers"
+msgstr "Nomor"
+
+#: admin/wa-admin-page.php:310
+msgid "Basic"
+msgstr "Dasar"
+
+#: admin/wa-admin-page.php:311
+msgid "Floating"
+msgstr "Tombol Mengambang"
+
+#: admin/wa-admin-page.php:312 admin/wa-admin-page.php:825
+#: admin/wa-admin-page.php:1066
+msgid "Display Options"
+msgstr "Opsi Tampilan"
+
+#: admin/wa-admin-page.php:313
+msgid "Shop"
+msgstr "Shop"
+
+#: admin/wa-admin-page.php:314
+msgid "Cart"
+msgstr "Keranjang"
+
+#: admin/wa-admin-page.php:315
+msgid "Checkout"
+msgstr "Checkout"
+
+#: admin/wa-admin-page.php:316
+msgid "GDPR"
+msgstr "GDPR"
+
+#: admin/wa-admin-page.php:317
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/wa-admin-page.php:318
+msgid "Support"
+msgstr "Bantuan"
+
+#: admin/wa-admin-page.php:322
+msgid "Generate Shortcode"
+msgstr "Buat Shortcode"
+
+#: admin/wa-admin-page.php:324
+msgid ""
+"Use shortcode to display OneClick Chat to Order's WhatsApp button anywhere "
+"on your site. There are two options; global and dynamic, which can be used "
+"based on your needs."
+msgstr ""
+"Gunakan shortcode untuk menampilkan tombol WhatsApp OneClick Chat to Order "
+"di mana pun. Terdapat dua pilihan yakni global dan dinamis, yang bias Anda "
+"gunakan sesuai kebutuhan."
+
+#: admin/wa-admin-page.php:328 admin/wa-admin-page.php:2263
+msgid "Shortcode Generator"
+msgstr "Shortcode Generator"
+
+#: admin/wa-admin-page.php:330
+msgid "Create a dynamic shortcode using below generator."
+msgstr "Buat shortcode dinamis menggunakan form berikut."
+
+#: admin/wa-admin-page.php:342 admin/wa-admin-page.php:424
+#: admin/wa-admin-page.php:568 admin/wa-admin-page.php:758
+#: admin/wa-admin-page.php:1640 admin/wa-admin-page.php:1753
+#: admin/wa-admin-page.php:1868 includes/multiple-numbers.php:12
+#: includes/multiple-numbers.php:52
+msgid "WhatsApp Number"
+msgstr "Nomor WhatsApp"
+
+#: admin/wa-admin-page.php:354 admin/wa-admin-page.php:436
+#: admin/wa-admin-page.php:580 admin/wa-admin-page.php:770
+#: admin/wa-admin-page.php:1652 admin/wa-admin-page.php:1765
+#: admin/wa-admin-page.php:1880
+msgid ""
+"WhatsApp number is <strong style=\"color:red;\">required</strong>. Please "
+"set it on <a href=\"edit.php?post_type=wa-order-numbers\"><strong>Numbers</"
+"strong></a> tab."
+msgstr ""
+"Nomor WhatsApp <strong style=\"color:red;\">wajib diisi</strong>. Mohon isi "
+"di <a href=\"edit.php?post_type=wa-order-numbers\">tab <strong>Nomor</"
+"strong></a>."
+
+#: admin/wa-admin-page.php:361 admin/wa-admin-page.php:443
+#: admin/wa-admin-page.php:617 admin/wa-admin-page.php:1670
+#: admin/wa-admin-page.php:1783 admin/wa-admin-page.php:1887
+msgid "Text on Button"
+msgstr "Teks Pada Tombol"
+
+#: admin/wa-admin-page.php:364 admin/wa-admin-page.php:446
+#: admin/wa-admin-page.php:620
+msgid "e.g. Order via WhatsApp"
+msgstr "contoh: Pesan via WhatsApp"
+
+#: admin/wa-admin-page.php:369 admin/wa-admin-page.php:451
+#: admin/wa-admin-page.php:605 admin/wa-admin-page.php:778
+#: admin/wa-admin-page.php:1678 admin/wa-admin-page.php:1791
+#: admin/wa-admin-page.php:1898 includes/wa-metabox.php:67
+msgid "Custom Message"
+msgstr "Isi Pesan"
+
+#: admin/wa-admin-page.php:372 admin/wa-admin-page.php:454
+#: admin/wa-admin-page.php:781
+msgid "e.g. Hello, I need to know more about"
+msgstr "contoh: Halo, saya ingin tahu lebih banyak tentang"
+
+#: admin/wa-admin-page.php:374 admin/wa-admin-page.php:456
+#: admin/wa-admin-page.php:783
+msgid ""
+"Enter custom message, e.g. <code>Hello, I need to know more about</code>"
+msgstr ""
+"Masukkan pesan, contoh: <code>Halo, saya ingin tahu lebih banyak tentang</"
+"code>"
+
+#: admin/wa-admin-page.php:378 admin/wa-admin-page.php:470
+#: admin/wa-admin-page.php:626 admin/wa-admin-page.php:811
+#: admin/wa-admin-page.php:1710 admin/wa-admin-page.php:1823
+#: admin/wa-admin-page.php:2017
+msgid "Open in New Tab?"
+msgstr "Buka di Tab Baru?"
+
+#: admin/wa-admin-page.php:384
+msgid "No"
+msgstr "Tidak"
+
+#: admin/wa-admin-page.php:385
+msgid "Yes"
+msgstr "Ya"
+
+#: admin/wa-admin-page.php:391 admin/wa-admin-page.php:460
+msgid "Copy Shortcode"
+msgstr "Salin Shortcode"
+
+#: admin/wa-admin-page.php:397
+msgid "Copy above shortcode and paste it anywhere."
+msgstr "Salin shortcode di atas dan tempel di mana pun."
+
+#: admin/wa-admin-page.php:413
+msgid "Global Shortcode"
+msgstr "Shortcode Global"
+
+#: admin/wa-admin-page.php:415
+msgid ""
+"You need to click the <b>Save Changes</b> button below in order to use the "
+"<code>[wa-order]</code> shortcode."
+msgstr ""
+"Anda harus klik tombol <b>Simpan Perubahan</b> di bawah untuk menggunakan "
+"shortcode <code>[wa-order]</code>."
+
+#: admin/wa-admin-page.php:474 admin/wa-admin-page.php:630
+#: admin/wa-admin-page.php:815 admin/wa-admin-page.php:1714
+#: admin/wa-admin-page.php:1827 admin/wa-admin-page.php:2021
+msgid "Yes, Open in New Tab"
+msgstr "Ya, Buka di Tab Baru"
+
+#: admin/wa-admin-page.php:494
+msgid "Confirmation"
+msgstr "Konfirmasi"
+
+#: admin/wa-admin-page.php:496
+msgid ""
+"Make sure that you have added at least one WhatsApp number to dismiss the "
+"admin notice. Please <a href=\"edit.php?post_type=wa-order-numbers"
+"\"><strong>set it here</strong></a> to get started. <a href=\"https://"
+"walterpinem.me/projects/oneclick-chat-to-order-mutiple-numbers-feature/?"
+"utm_source=admin-notice&utm_medium=admin-dashboard&utm_campaign=OneClick-"
+"Chat-to-Order\" target=\"_blank\"><strong>Learn more</strong></a>."
+msgstr ""
+"Pastikan bahwa Anda sudah mengisi paling tidak satu nomor WhatsApp untuk "
+"menghilangkan pemberitahuan admin. Mohon <a href=\"edit.php?post_type=wa-"
+"order-numbers\"><strong>isi di sini</strong></a> untuk memulai. <a href="
+"\"https://walterpinem.me/projects/oneclick-chat-to-order-mutiple-numbers-"
+"feature/?utm_source=admin-notice&utm_medium=admin-"
+"dashboard&utm_campaign=OneClick-Chat-to-Order\" target=\"_blank"
+"\"><strong>Baca selengkapnya</strong></a>."
+
+#: admin/wa-admin-page.php:503
+msgid "Dismiss Notice"
+msgstr "Hilangkan Pemberitahuan"
+
+#: admin/wa-admin-page.php:507
+msgid "Check this if you have added at least one WhatsApp number."
+msgstr "Centang bila Anda sudah menambahkan paling tidak satu nomor WhatsApp."
+
+#: admin/wa-admin-page.php:514
+msgid "WhatsApp Base URL"
+msgstr "Basis URL WhatsApp"
+
+#: admin/wa-admin-page.php:516
+msgid ""
+"Just in case, if the WhatsApp link cannot be opened in a mobile device, you "
+"can choose <code>api</code> instead of <code>web</code> for desktop (default "
+"is <code>web</code> for desktop and <code>api</code> for mobile)."
+msgstr ""
+"Bila tautan WhatsApp tidak dapat dibuka di perangkat seluler, Anda dapat "
+"memilih <code>api </code> ketimbang <code>web </code> untuk perangkat "
+"desktop (defaultnya adalah <code> web </code> untuk desktop dan <code> api </"
+"code> untuk perangkat seluler)."
+
+#: admin/wa-admin-page.php:524
+msgid "Choose Base URL"
+msgstr "Pilih Basis URL"
+
+#: admin/wa-admin-page.php:530
+msgid "web (default)"
+msgstr "web (default)"
+
+#: admin/wa-admin-page.php:533
+msgid "api"
+msgstr "api"
+
+#: admin/wa-admin-page.php:537
+msgid "It's only applicable for desktop."
+msgstr "Hanya berlaku di perangkat desktop."
+
+#: admin/wa-admin-page.php:548 admin/wa-admin-page.php:1243
+msgid "Single Product Page"
+msgstr "Halaman Produk"
+
+#: admin/wa-admin-page.php:550
+msgid "These configurations will be only effective on single product page."
+msgstr "Pengaturan ini hanya berlaku di halaman produk."
+
+#: admin/wa-admin-page.php:556
+msgid "Display Button?"
+msgstr "Tampilkan Tombol?"
+
+#: admin/wa-admin-page.php:560
+msgid "This will display WhatsApp button on single product page"
+msgstr "Opsi ini akan menampilkan tombol WhatsApp di halaman produk"
+
+#: admin/wa-admin-page.php:589
+msgid "Button Position"
+msgstr "Posisi Tombol"
+
+#: admin/wa-admin-page.php:592
+msgid "After Add to Cart Button (Default)"
+msgstr "Setelah Tombol Tambah ke Keranjang (Default)"
+
+#: admin/wa-admin-page.php:593
+msgid "Under Add to Cart Button"
+msgstr "Di Bawah Tombol Tambah ke Keranjang"
+
+#: admin/wa-admin-page.php:594
+msgid "After Short Description"
+msgstr "Setelah Deskripsi Pendek Produk"
+
+#: admin/wa-admin-page.php:597
+msgid "Choose where to put the WhatsApp button on single product page."
+msgstr "Pilih letak tombol WhatsApp di halaman produk."
+
+#: admin/wa-admin-page.php:608
+msgid "e.g. Hello, I want to buy:"
+msgstr "contoh: Halo, saya ingin membeli:"
+
+#: admin/wa-admin-page.php:610
+msgid ""
+"Fill this form with custom message, e.g. <code>Hello, I want to buy:</code>"
+msgstr ""
+"Isi bagian ini dengan pesan kustom, contoh: <code>Halo, saya ingin membeli:</"
+"code>"
+
+#: admin/wa-admin-page.php:639
+msgid "Exclusion"
+msgstr "Pengecualian"
+
+#: admin/wa-admin-page.php:640
+msgid ""
+"The following option is only for the output message you'll receieve on "
+"WhatsApp. To hide some elements, please go to <a href=\"admin.php?page=wa-"
+"order&tab=display_option\"><strong>Display Options</strong></a> tab."
+msgstr ""
+"Opsi berikut hanya berlaku pada pesan yang akan Anda terima di WhatsApp. "
+"Untuk menyembunyikan elemen tertentu, mohon rujuk tab <a href=\"admin.php?"
+"page=wa-order&tab=display_option\"><strong>Opsi Tampilan</strong></a>."
+
+#: admin/wa-admin-page.php:643 admin/wa-admin-page.php:1688
+msgid "Exclude Price?"
+msgstr "Jangan Sertakan Harga?"
+
+#: admin/wa-admin-page.php:647
+msgid "Yes, exclude price in WhatsApp message."
+msgstr "Ya, jangan sertakan harga di pesan WhatsApp."
+
+#: admin/wa-admin-page.php:654 admin/wa-admin-page.php:1699
+#: admin/wa-admin-page.php:1801
+msgid "Remove Product URL?"
+msgstr "Hilangkan Tautan Produk?"
+
+#: admin/wa-admin-page.php:658
+msgid ""
+"This will remove product URL from WhatsApp message sent from single product "
+"page."
+msgstr ""
+"Opsi ini akan menghilangkan tautan produk dari pesan WhatsApp yang dikirim "
+"lewat halaman produk."
+
+#: admin/wa-admin-page.php:668
+msgid "Text Translations"
+msgstr "Terjemahan Teks"
+
+#: admin/wa-admin-page.php:669
+msgid ""
+"You can translate the following strings which will be included in the sent "
+"message. By default, the labels are used in the message. You can translate "
+"or change them below accordingly."
+msgstr ""
+"Anda bisa menerjemahkan teks berikut yang nantinya akan tampil di pesan "
+"WhatsApp. Standarnya, teks berikut akan digunakan di dalam pesan. Anda bisa "
+"menerjemahkan atau mengganti teks berikut sesuai kebutuhan."
+
+#: admin/wa-admin-page.php:673
+msgid "Quantity"
+msgstr "Kuantitas"
+
+#: admin/wa-admin-page.php:676
+msgid "e.g. Quantity"
+msgstr "contoh: Kuantitas"
+
+#: admin/wa-admin-page.php:682
+msgid "Price"
+msgstr "Harga"
+
+#: admin/wa-admin-page.php:685
+msgid "e.g. Price"
+msgstr "contoh: Harga"
+
+#: admin/wa-admin-page.php:692
+msgid "URL"
+msgstr "URL"
+
+#: admin/wa-admin-page.php:695
+msgid "e.g. Link"
+msgstr "contoh: Link"
+
+#: admin/wa-admin-page.php:701
+msgid "Total Amount"
+msgstr "Harga Total"
+
+#: admin/wa-admin-page.php:704
+msgid "e.g. Total Amount"
+msgstr "contoh: Harga Total"
+
+#: admin/wa-admin-page.php:710
+msgid "Payment Method"
+msgstr "Metode Pembayaran"
+
+#: admin/wa-admin-page.php:713
+msgid "e.g. Payment via"
+msgstr "contoh: Pembayaran via"
+
+#: admin/wa-admin-page.php:719
+msgid "Thank you!"
+msgstr "Terima kasih!"
+
+#: admin/wa-admin-page.php:722
+msgid "e.g. Thank you in advance!"
+msgstr "e.g. Terima kasih sebelumnya!"
+
+#: admin/wa-admin-page.php:737
+msgid "Floating Button"
+msgstr "Tombol Mengambang"
+
+#: admin/wa-admin-page.php:739
+msgid ""
+"Enable / disable a floating WhatsApp button on your entire pages. You can "
+"configure the floating button below."
+msgstr ""
+"Aktifkan / non-aktifkan tombol mengambang WhatsApp di seluruh halaman. Anda "
+"bisa mengatur tombol mengambang di bawah ini."
+
+#: admin/wa-admin-page.php:746
+msgid "Display Floating Button?"
+msgstr "Tampilkan Tombol Mengambang?"
+
+#: admin/wa-admin-page.php:750
+msgid "This will show floating WhatsApp Button"
+msgstr "Aktifkan tombol mengambang WhatsApp"
+
+#: admin/wa-admin-page.php:789
+msgid "Show Source Page URL?"
+msgstr "Tampilkan URL Sumber Halaman?"
+
+#: admin/wa-admin-page.php:793
+msgid ""
+"This will include the URL of the page where the button is clicked in the "
+"message."
+msgstr ""
+"Opsi ini akan menyertakan URL halaman di mana tombol tersebut diklik di "
+"dalam pesan."
+
+#: admin/wa-admin-page.php:800
+msgid "Source Page URL Label"
+msgstr "Label URL Sumber Halaman"
+
+#: admin/wa-admin-page.php:803
+msgid "From URL:"
+msgstr "Dari URL:"
+
+#: admin/wa-admin-page.php:805
+msgid "Add a label for the source page URL. <code>e.g. From URL:</code>"
+msgstr ""
+"Tambahkan label untuk URL sumber halaman. <code>contoh: Dari URL:</code>"
+
+#: admin/wa-admin-page.php:827
+msgid ""
+"Configure where and how you'd like the floating button to be displayed.."
+msgstr "Silakan atur di mana Anda ingin menampilkan tombol mengambang."
+
+#: admin/wa-admin-page.php:834
+msgid "Floating Button Position"
+msgstr "Posisi Tombol Mengambang"
+
+#: admin/wa-admin-page.php:839 admin/wa-admin-page.php:1378
+#: admin/wa-admin-page.php:1408
+msgid "Left"
+msgstr "Kiri"
+
+#: admin/wa-admin-page.php:841 admin/wa-admin-page.php:1370
+#: admin/wa-admin-page.php:1400
+msgid "Right"
+msgstr "Kanan"
+
+#: admin/wa-admin-page.php:847
+msgid "Display Tooltip?"
+msgstr "Tampilkan Tooltip?"
+
+#: admin/wa-admin-page.php:852
+msgid "This will show a custom tooltip"
+msgstr "Opsi ini akan menampilkan tooltip"
+
+#: admin/wa-admin-page.php:859
+msgid "Button Tooltip"
+msgstr "Tooltip Tombol"
+
+#: admin/wa-admin-page.php:863
+msgid "e.g. Let's Chat"
+msgstr "contoh: Chat Kami Sekarang"
+
+#: admin/wa-admin-page.php:865
+msgid ""
+"Use this to greet your customers. The tooltip container size is very "
+"<br>limited so make sure to make it as short as possible."
+msgstr ""
+"Gunakan opsi ini untuk menyapa pelanggan/pengunjung Anda. <br>Ukurannya "
+"sangat terbatas jadi usahakan sesingkat mungkin."
+
+#: admin/wa-admin-page.php:872
+msgid "Hide Floating Button on Mobile?"
+msgstr "Sembunyikan Tombol Mengambang di Mobile?"
+
+#: admin/wa-admin-page.php:877
+msgid "This will hide Floating Button on Mobile."
+msgstr "Opsi ini akan menyembunyikan Tombol Mengambang di Mobile."
+
+#: admin/wa-admin-page.php:884
+msgid "Hide Floating Button on Desktop?"
+msgstr "Sembunyikan Tombol Mengambang di Desktop?"
+
+#: admin/wa-admin-page.php:889
+msgid "This will hide Floating Button on Desktop."
+msgstr "Opsi ini akan menyembunyikan Tombol Mengambang di Desktop."
+
+#: admin/wa-admin-page.php:897 admin/wa-admin-page.php:912
+msgid "Hide Floating Button on All Single Posts?"
+msgstr "Sembunyikan Tombol Mengambang di Semua Artikel/Postingan?"
+
+#: admin/wa-admin-page.php:902
+msgid "This will hide Floating Button on all single posts."
+msgstr ""
+"Opsi ini akan menyembunyikan Tombol Mengambang di semua artikel/postingan."
+
+#: admin/wa-admin-page.php:917
+msgid "This will hide Floating Button on all single pages."
+msgstr ""
+"Opsi ini akan menyembunyikan Tombol Mengambang di seluruh halaman Laman."
+
+#: admin/wa-admin-page.php:927
+msgid "Hide Floating Button on Selected Post(s)"
+msgstr "Sembunyikan Tombol Mengambang Pada Postingan Pilihan?"
+
+#: admin/wa-admin-page.php:954
+msgid "You can hide the floating button on the selected post(s)."
+msgstr ""
+"Anda bisa menyembunyikan tombol mengambang pada postingan yang dipilih."
+
+#: admin/wa-admin-page.php:963
+msgid "Hide Floating Button on Selected Page(s)"
+msgstr "Sembunyikan Tombol Mengambang di Pada Laman Pilihan?"
+
+#: admin/wa-admin-page.php:988
+msgid "You can hide the floating button on the selected page(s)."
+msgstr "Anda bisa menyembunyikan tombol mengambang pada laman yang dipilih."
+
+#: admin/wa-admin-page.php:996
+msgid "Hide Floating Button on Products in Categories"
+msgstr "Sembunyikan Tombol Mengambang di Produk dalam Kategori Tertentu"
+
+#: admin/wa-admin-page.php:1016
+msgid ""
+"You can hide the floating button on products in the selected categories."
+msgstr ""
+"Anda bisa menyembunyikan tombol mengambang pada produk yang ada dalam "
+"kategori tertentu."
+
+#: admin/wa-admin-page.php:1022
+msgid "Hide Floating Button on Products in Tags"
+msgstr "Sembunyikan Tombol Mengambang di Produk dalam Tag Tertentu"
+
+#: admin/wa-admin-page.php:1042
+msgid "You can hide the floating button on products in the selected tags."
+msgstr ""
+"Anda bisa menyembunyikan tombol mengambang pada produk yang ada dalam tag "
+"tertentu."
+
+#: admin/wa-admin-page.php:1068
+msgid ""
+"Here, you can configure some options for hiding elements to convert "
+"customers phone number into clickable WhatsApp link."
+msgstr ""
+"Di sini, Anda dapat mengonfigurasi beberapa opsi untuk menyembunyikan elemen "
+"hingga mengubah nomor telepon pelanggan menjadi tautan WhatsApp yang dapat "
+"diklik."
+
+#: admin/wa-admin-page.php:1075
+msgid "Button Colors"
+msgstr "Warna Tombol"
+
+#: admin/wa-admin-page.php:1076
+msgid "Customize the WhatsApp button appearance however you like."
+msgstr "Sesuaikan warna dan tampilan tombol WhatsApp sesuka Anda."
+
+#: admin/wa-admin-page.php:1080
+msgid "Background Color"
+msgstr "Warna Latar Belakang"
+
+#: admin/wa-admin-page.php:1092
+msgid "Background Hover Color"
+msgstr "Warna Hover Latar Belakang"
+
+#: admin/wa-admin-page.php:1104
+msgid "Text Color"
+msgstr "Warna Teks"
+
+#: admin/wa-admin-page.php:1116
+msgid "Text Hover Color"
+msgstr "Warna Hover Teks"
+
+#: admin/wa-admin-page.php:1131
+msgid "Button Box Shadow Color"
+msgstr "Warna Box Shadow Tombol"
+
+#: admin/wa-admin-page.php:1132
+msgid "Customize the box shadow color for the WhatsApp button."
+msgstr "Sesuaikan warna box shadow tombol WhatsApp sesuka Anda."
+
+#: admin/wa-admin-page.php:1136
+msgid "Box Shadow"
+msgstr "Box Shadow"
+
+#: admin/wa-admin-page.php:1145 admin/wa-admin-page.php:1197
+msgid "Horizontal"
+msgstr "Horisontal"
+
+#: admin/wa-admin-page.php:1151 admin/wa-admin-page.php:1203
+msgid "Vertical"
+msgstr "Vertikal"
+
+#: admin/wa-admin-page.php:1157 admin/wa-admin-page.php:1209
+msgid "Blur"
+msgstr "Blur"
+
+#: admin/wa-admin-page.php:1163 admin/wa-admin-page.php:1215
+msgid "Spread"
+msgstr "Spread"
+
+#: admin/wa-admin-page.php:1175
+msgid "Position"
+msgstr "Posisi"
+
+#: admin/wa-admin-page.php:1179 admin/wa-admin-page.php:1231
+msgid "Outline"
+msgstr "Outline"
+
+#: admin/wa-admin-page.php:1181 admin/wa-admin-page.php:1233
+msgid "Inset"
+msgstr "Inset"
+
+#: admin/wa-admin-page.php:1188
+msgid "Box Shadow Hover"
+msgstr "Hover Box Shadow"
+
+#: admin/wa-admin-page.php:1227
+msgid "Hover Position"
+msgstr "Posisi Hover"
+
+#: admin/wa-admin-page.php:1244
+msgid "The following options will be only effective on single product page."
+msgstr "Opsi berikut ini hanya berlaku untuk halaman produk."
+
+#: admin/wa-admin-page.php:1248 admin/wa-admin-page.php:1425
+#: admin/wa-admin-page.php:1539 admin/wa-admin-page.php:1569
+msgid "Hide Button on Desktop?"
+msgstr "Sembunyikan Tombol di Desktop?"
+
+#: admin/wa-admin-page.php:1252 admin/wa-admin-page.php:1429
+#: admin/wa-admin-page.php:1543 admin/wa-admin-page.php:1573
+msgid "This will hide WhatsApp Button on Desktop."
+msgstr "Opsi ini akan menyembunyikan tombol WhatsApp di Desktop."
+
+#: admin/wa-admin-page.php:1259 admin/wa-admin-page.php:1435
+#: admin/wa-admin-page.php:1549 admin/wa-admin-page.php:1579
+msgid "Hide Button on Mobile?"
+msgstr "Sembunyikan Tombol di Mobile?"
+
+#: admin/wa-admin-page.php:1263 admin/wa-admin-page.php:1439
+#: admin/wa-admin-page.php:1553 admin/wa-admin-page.php:1583
+msgid "This will hide WhatsApp Button on Mobile."
+msgstr "Opsi ini akan menyembunyikan tombol WhatsApp di Mobile."
+
+#: admin/wa-admin-page.php:1270
+msgid "Hide Product Quantity Option?"
+msgstr "Sembunyikan Kuantitas Produk?"
+
+#: admin/wa-admin-page.php:1274
+msgid "This will hide product quantity option field."
+msgstr "Opsi ini akan menyembunyikan opsi kuantitas produk."
+
+#: admin/wa-admin-page.php:1280
+msgid "Hide Price in Product Page?"
+msgstr "Sembunyikan Harga di Halaman Produk?"
+
+#: admin/wa-admin-page.php:1284
+msgid "This will hide price in Product page."
+msgstr "Opsi ini akan menyembunyikan harga di Halaman Produk."
+
+#: admin/wa-admin-page.php:1290 admin/wa-admin-page.php:1659
+#: includes/wa-metabox.php:82
+msgid "Hide Add to Cart button?"
+msgstr "Sembunyikan tombol Add to Cart?"
+
+#: admin/wa-admin-page.php:1294
+msgid "This will hide Add to Cart button."
+msgstr "Opsi ini akan menyembunyikan tombol Add to Cart."
+
+#: admin/wa-admin-page.php:1300
+msgid "Hide WA Button on Products in Categories"
+msgstr "Sembunyikan Tombol WA di Produk dalam Kategori Tertentu"
+
+#: admin/wa-admin-page.php:1320
+msgid ""
+"You can hide the WhatsApp button on products in the selected categories."
+msgstr ""
+"Anda bisa menyembunyikan tombol WhatsApp pada produk yang ada dalam kategori "
+"tertentu."
+
+#: admin/wa-admin-page.php:1328
+msgid "Hide WA Button on Products in Tags"
+msgstr "Sembunyikan Tombol WA di Produk dalam Tag Tertentu"
+
+#: admin/wa-admin-page.php:1348
+msgid "You can hide the WhatsApp button on products in the selected tags."
+msgstr ""
+"Anda bisa menyembunyikan tombol WhatsApp pada produk yang ada dalam tag "
+"tertentu."
+
+#: admin/wa-admin-page.php:1359
+msgid "Button Margin"
+msgstr "Margin Tombol"
+
+#: admin/wa-admin-page.php:1366 admin/wa-admin-page.php:1396
+msgid "Top"
+msgstr "Top"
+
+#: admin/wa-admin-page.php:1374 admin/wa-admin-page.php:1404
+msgid "Bottom"
+msgstr "Bottom"
+
+#: admin/wa-admin-page.php:1389
+msgid "Button Padding"
+msgstr "Padding Tombol"
+
+#: admin/wa-admin-page.php:1421
+msgid "Shop Loop Page"
+msgstr "Halaman Arsip Produk"
+
+#: admin/wa-admin-page.php:1422
+msgid "The following options will be only effective on shop loop page."
+msgstr "Opsi berikut hanya berlaku pada halaman arsip produk."
+
+#: admin/wa-admin-page.php:1446
+msgid "Hide WA Button Under Products in Categories"
+msgstr "Sembunyikan Tombol WA di Bawah Produk dalam Kategori Tertentu"
+
+#: admin/wa-admin-page.php:1469
+msgid ""
+"You can hide the WhatsApp button under products in the selected categories."
+msgstr ""
+"Anda bisa menyembunyikan tombol WhatsApp di bawah produk yang ada dalam "
+"kategori tertentu."
+
+#: admin/wa-admin-page.php:1478
+msgid "Also Hide on Category Archive Page(s)?"
+msgstr "Sembunyikan Juga di Halaman Arsip Kategori Produk?"
+
+#: admin/wa-admin-page.php:1482
+msgid ""
+"This will hide WhatsApp Button on the selected category archive page(s)."
+msgstr ""
+"Opsi ini akan menyembunyikan tombol WhatsApp di halaman arsip kategori "
+"produk yang dipilih."
+
+#: admin/wa-admin-page.php:1489
+msgid "Hide WA Button Under Products in Tags"
+msgstr "Sembunyikan Tombol WA di Bawah Produk dalam Tag Tertentu"
+
+#: admin/wa-admin-page.php:1509
+msgid "You can hide the WhatsApp button under products in the selected tags."
+msgstr ""
+"Anda bisa menyembunyikan tombol WhatsApp di bawah produk yang ada dalam tag "
+"tertentu."
+
+#: admin/wa-admin-page.php:1519
+msgid "Also Hide on Tag Archive Page(s)?"
+msgstr "Sembunyikan Juga di Halaman Arsip Tag Produk?"
+
+#: admin/wa-admin-page.php:1523
+msgid "This will hide WhatsApp Button on the selected tag archive page(s)."
+msgstr ""
+"Opsi ini akan menyembunyikan tombol WhatsApp di halaman arsip tag produk "
+"yang dipilih."
+
+#: admin/wa-admin-page.php:1535
+msgid "Cart Page"
+msgstr "Halaman Keranjang"
+
+#: admin/wa-admin-page.php:1536 admin/wa-admin-page.php:1566
+msgid "The following options will be only effective on cart page."
+msgstr "Opsi berikut hanya berlaku untuk halaman keranjang."
+
+#: admin/wa-admin-page.php:1565
+msgid "Thank You Page"
+msgstr "Halaman Pesanan Diterima"
+
+#: admin/wa-admin-page.php:1594
+msgid "Miscellaneous"
+msgstr "Pengaturan Lainnya"
+
+#: admin/wa-admin-page.php:1595
+msgid "An additional option you might need."
+msgstr "Opsi tambahan yang mungkin Anda butuhkan."
+
+#: admin/wa-admin-page.php:1599
+msgid "Convert Phone Number into WhatsApp in Order Details?"
+msgstr "Ubah Nomor Telepon Menjadi WhatsApp dalam Rincian Pesanan?"
+
+#: admin/wa-admin-page.php:1603
+msgid "This will convert phone number link into WhatsApp chat link."
+msgstr ""
+"Opsi ini akan mengubah nomor telepon menjadi link WhatsApp yang dapat diklik."
+
+#: admin/wa-admin-page.php:1619
+msgid "WhatsApp Button on Shop Page"
+msgstr "Tombol WhatsApp di Halaman Arsip Produk"
+
+#: admin/wa-admin-page.php:1621
+msgid ""
+"Add custom WhatsApp button on <strong>Shop</strong> page or product loop "
+"page right under / besides of the <strong>Add to Cart</strong> button."
+msgstr ""
+"Tambahkan tombol WhatsApp khusus di halaman <strong>Belanja / Arsip Produk</"
+"strong> atau halaman loop produk tepat di bawah / di samping tombol "
+"<strong>Tambah ke Keranjang </strong>."
+
+#: admin/wa-admin-page.php:1628
+msgid "Display button on Shop page?"
+msgstr "Tampilkan tombol di halaman Belanja / Arsip Produk?"
+
+#: admin/wa-admin-page.php:1632
+msgid "This will display WhatsApp button on Shop page"
+msgstr ""
+"Opsi ini akan menampilkan tombol WhatsApp di halaman Belanja / Arsip Produk."
+
+#: admin/wa-admin-page.php:1663
+msgid ""
+"This will only display WhatsApp button and hide the <code>Add to Cart</code> "
+"button"
+msgstr ""
+"Opsi ini hanya akan menampilkan tombol WhatsApp dan menyembunyikan tombol "
+"<code>Tambah ke Keranjang</code>"
+
+#: admin/wa-admin-page.php:1673
+msgid "e.g. Buy via WhatsApp"
+msgstr "contoh: Beli via WhatsApp"
+
+#: admin/wa-admin-page.php:1681
+msgid "e.g. Hello, I want to purchase:"
+msgstr "contoh: Halo, saya ingin membeli:"
+
+#: admin/wa-admin-page.php:1683
+msgid "Enter custom message, e.g. <code>Hello, I want to purchase:</code>"
+msgstr "Masukkan pesan, contoh: <code>Halo, saya ingin membeli:</code>"
+
+#: admin/wa-admin-page.php:1692
+msgid ""
+"This will remove product price from WhatsApp message sent from Shop loop "
+"page."
+msgstr ""
+"Opsi ini akan menghapus harga produk dari pesan WhatsApp yang dikirim dari "
+"halaman Belanja / Arsip Produk."
+
+#: admin/wa-admin-page.php:1703
+msgid ""
+"This will remove product URL from WhatsApp message sent from Shop loop page."
+msgstr ""
+"Opsi ini akan menghapus tautan produk dari pesan WhatsApp yang dikirim dari "
+"halaman Belanja / Arsip Produk."
+
+#: admin/wa-admin-page.php:1732
+msgid "WhatsApp Button on Cart Page"
+msgstr "Tombol WhatsApp di Halaman Keranjang"
+
+#: admin/wa-admin-page.php:1734
+msgid ""
+"Add custom WhatsApp button on <strong>Cart</strong> page right under the "
+"<strong>Proceed to Checkout</strong> button."
+msgstr ""
+"Tambahkan tombol WhatsApp di halaman <strong>Keranjang</strong> tepat di "
+"bawah tombol <strong>Lanjutkan ke Checkout</strong>."
+
+#: admin/wa-admin-page.php:1741
+msgid "Display button on Cart page?"
+msgstr "Tampilkan tombol di halaman Keranjang?"
+
+#: admin/wa-admin-page.php:1745
+msgid "This will display WhatsApp button on Cart page"
+msgstr "Opsi ini akan menampilkan tombol WhatsApp di halaman Keranjang."
+
+#: admin/wa-admin-page.php:1772
+msgid "Hide Proceed to Checkout button?"
+msgstr "Sembunyikan tombol Lanjutkan ke Checkout?"
+
+#: admin/wa-admin-page.php:1776
+msgid ""
+"This will only display WhatsApp button and hide the <code>Proceed to "
+"Checkout</code> button"
+msgstr ""
+"Opsi ini hanya akan menampilkan tombol WhatsApp dan menyembunyikan tombol "
+"<code>Lanjutkan ke Checkout</code>"
+
+#: admin/wa-admin-page.php:1786
+msgid "e.g. Complete Order via WhatsApp"
+msgstr "contoh: Selesaikan Pesanan via WhatsApp"
+
+#: admin/wa-admin-page.php:1794
+msgid "e.g. Hello, I want to purchase the item(s) below:"
+msgstr "contoh: Halo, saya ingin membeli produk berikut:"
+
+#: admin/wa-admin-page.php:1796
+msgid ""
+"Enter custom message, e.g. <code>Hello, I want to purchase the item(s) below:"
+"</code>"
+msgstr ""
+"Masukkan pesan, contoh: <code>Halo, saya ingin membeli produk berikut:</code>"
+
+#: admin/wa-admin-page.php:1805
+msgid "This will remove product URL from WhatsApp message sent from Cart page."
+msgstr ""
+"Opsi ini akan menghapus tautan produk dari pesan WhatsApp yang dikirim dari "
+"halaman Keranjang."
+
+#: admin/wa-admin-page.php:1812
+msgid "Include Product Variation?"
+msgstr "Sertakan Variasi Produk?"
+
+#: admin/wa-admin-page.php:1816
+msgid ""
+"This will include the product variation in the message. Note: Works only if "
+"the variation stored by WooCommerce, might not all."
+msgstr ""
+"Opsi ini akan menyertakan variasi produk di dalam pesan. Catatan: Hanya bisa "
+"menampilkan variasi yang disimpan oleh WooCommerce, mungkin tidak semua."
+
+#: admin/wa-admin-page.php:1847
+msgid "Thank You Page Customization"
+msgstr "Kustomisasi Halaman Pesanan Diterima"
+
+#: admin/wa-admin-page.php:1849
+msgid ""
+"Add a WhatsApp button on <strong>Thank You</strong> / <strong>Order "
+"Received</strong>. If enabled, it will add a new section under the "
+"<strong>Order Received</strong> or <strong>Thank You</strong> title and "
+"override default text by using below data, including adding a WhatsApp "
+"button to send order details. <br /><strong>Tip:</strong> You can use this "
+"to make it quick for your customers to send their own order receipt to you "
+"via WhatsApp."
+msgstr ""
+"Tambahkan tombol WhatsApp di halaman <strong>Terima Kasih</strong> / "
+"<strong>Pesanan Diterima</strong>. Bila diaktifkan, nantinya akan terdapat "
+"satu bagian baru di bawah tulisan <strong>Pesanan Diterima</strong> atau "
+"<strong>Terima Kasih</strong> dan tulisan bawaan di halaman tersebut akan "
+"berganti dengan data di bawah ini, termasuk sebuah tombol WhatsApp untuk "
+"mengirimkan detail pesanan. <br /><strong>Tip:</strong> Anda bisa "
+"memaksimalkan opsi ini untuk mempermudah pembeli dalam mengirimkan rincian "
+"pesanan mereka langsung kepada Anda via WhatsApp."
+
+#: admin/wa-admin-page.php:1856
+msgid "Enable Setting?"
+msgstr "Aktifkan Pengaturan?"
+
+#: admin/wa-admin-page.php:1860
+msgid "This will override default appearance and add a WhatsApp button."
+msgstr ""
+"Opsi ini akan menggantikan tampilan bawaan dan menambahkan tombol WhatsApp."
+
+#: admin/wa-admin-page.php:1890
+msgid "e.g. Send Order Details"
+msgstr "contoh: Kirim Detail Pesanan"
+
+#: admin/wa-admin-page.php:1892
+msgid "Enter the text on WhatsApp button.<code>e.g. Send Order Details</code>"
+msgstr ""
+"Masukkan teks di tombol WhatsApp.<code>contoh: Kirim Detail Pesanan</code>"
+
+#: admin/wa-admin-page.php:1901
+msgid "e.g. Hello, here's my order details:"
+msgstr "contoh: Halo, berikut detail pesanan saya:"
+
+#: admin/wa-admin-page.php:1903
+msgid ""
+"Enter custom message to send along with order details. e.g. <br><code>Hello, "
+"here's my order details:</code>"
+msgstr ""
+"Masukkan isi pesan untuk dikirimkan bersama dengan detail pesanan, contoh: "
+"<br><code>Halo, berikut detail pesanan saya:</code>"
+
+#: admin/wa-admin-page.php:1907
+msgid "Custom Title"
+msgstr "Judul"
+
+#: admin/wa-admin-page.php:1910
+msgid "e.g. Thanks and You're  Awesome"
+msgstr "contoh: Terima kasih dan Anda Luar Biasa"
+
+#: admin/wa-admin-page.php:1912
+msgid ""
+"You can personalize the title by changing it here. This will be shown like "
+"this:<br/> <code>[your custom title], [customer's first name]</code>.<br/>e."
+"g. Thanks and You're  Awesome, Igor!"
+msgstr ""
+"Anda dapat mempersonalisasi judul dengan mengubahnya di sini. Nantinya akan "
+"ditampilkan seperti ini: <br/> <code> [judul], [nama depan pembeli] </code>. "
+"<br/> contoh: Terima kasih dan Anda Luar Biasa, Budi!"
+
+#: admin/wa-admin-page.php:1918
+msgid "Custom Subtitle"
+msgstr "Subjudul"
+
+#: admin/wa-admin-page.php:1921
+msgid ""
+"e.g. For faster response, send your order details by clicking below button."
+msgstr ""
+"contoh: Untuk mempercepat proses, kirimkan detail pesanan dengan mengklik "
+"tombol berikut."
+
+#: admin/wa-admin-page.php:1923
+msgid ""
+"Enter custom subtitle. e.g. <br><code>For faster response, send your order "
+"details by clicking below button.</code>"
+msgstr ""
+"Masukkan subjudul, contoh: <br><code>Untuk mempercepat proses, kirimkan "
+"detail pesanan dengan mengklik tombol berikut.</code>"
+
+#: admin/wa-admin-page.php:1929
+msgid "Customer Details Label"
+msgstr "Label Detail Pembeli"
+
+#: admin/wa-admin-page.php:1932
+msgid "e.g. Customer Details"
+msgstr "contoh: Detail Pembeli"
+
+#: admin/wa-admin-page.php:1934
+msgid "Enter a label. e.g. <code>Customer Details</code>"
+msgstr "Masukkan label, contoh: <code>Detail Pembeli</code>"
+
+#: admin/wa-admin-page.php:1943
+msgid "Include Coupon Discount?"
+msgstr "Sertakan Kupon Diskon?"
+
+#: admin/wa-admin-page.php:1947
+msgid ""
+"This will include coupon code and its deduction amount, including a label "
+"(the label must be set below if it's enabled)."
+msgstr ""
+"Opsi ini akan menyertakan kode kupon dan nominal diskonnya, termasuk label "
+"(label mesti diset di bawah)."
+
+#: admin/wa-admin-page.php:1954
+msgid "Coupon Label"
+msgstr "Label Kupon"
+
+#: admin/wa-admin-page.php:1957
+msgid "e.g. Voucher Code"
+msgstr "contoh: Kode Voucher"
+
+#: admin/wa-admin-page.php:1959
+msgid "Enter a label. e.g. <code>Voucher Code</code>"
+msgstr "Masukkan label, contoh: <code>Kode Voucher</code>"
+
+#: admin/wa-admin-page.php:1966
+msgid "Include Order Number?"
+msgstr "Sertakan Nomor Pesanan?"
+
+#: admin/wa-admin-page.php:1970
+msgid ""
+"This will include the order number including a label (the label must be set "
+"below if it's enabled)."
+msgstr ""
+"Opsi ini akan menyertakan nomor pesanan beserta labelnya (label mesti diset "
+"di bawah)."
+
+#: admin/wa-admin-page.php:1979
+msgid "Order Number Label"
+msgstr "Label Nomor Pesanan"
+
+#: admin/wa-admin-page.php:1982
+msgid "e.g. Order Number:"
+msgstr "contoh: Nomor Pesanan:"
+
+#: admin/wa-admin-page.php:1984
+msgid "Enter a label. e.g. <code>Order Number:</code>"
+msgstr "Masukkan label, contoh: <code>Nomor Pesanan:</code>"
+
+#: admin/wa-admin-page.php:1993
+msgid "Include Product SKU?"
+msgstr "Sertakan SKU Produk?"
+
+#: admin/wa-admin-page.php:1997
+msgid "Yes, Include Product SKU"
+msgstr "Ya, Sertakan SKU Produk"
+
+#: admin/wa-admin-page.php:2006
+msgid "Include Order Date?"
+msgstr "Sertakan Tanggal Pemesanan?"
+
+#: admin/wa-admin-page.php:2010
+msgid "Yes, Include Order Date"
+msgstr "Ya, Sertakan Tanggal Pemesanan"
+
+#: admin/wa-admin-page.php:2037
+msgid "GDPR Notice"
+msgstr "Pemberitahuan GDPR"
+
+#: admin/wa-admin-page.php:2039
+msgid ""
+"You can enable or disable the GDPR notice to make your site more GDPR "
+"compliant. <br>The GDPR notice you configure below will be displayed right "
+"under the WhatsApp Order button. <br>\n"
+"            Please note that this option will only show the GDPR notice on "
+"single product page."
+msgstr ""
+"Aktifkan / non-aktifkan Pemberitahuan GDPR untuk membuat website Anda lebih "
+"patuh terhadap GDPR. <br>Pemberitahuan GDPR yang Anda konfigurasi di bawah "
+"ini akan ditampilkan tepat di bawah tombol WhatsApp."
+
+#: admin/wa-admin-page.php:2049
+msgid "Enable GDPR Notice"
+msgstr "Aktifkan Pemberitahuan GDPR"
+
+#: admin/wa-admin-page.php:2054
+msgid "Check to Enable GDPR Notice."
+msgstr "Centang untuk Mengaktifkan Pemberitahuan GDPR."
+
+#: admin/wa-admin-page.php:2061
+msgid "GDPR Message"
+msgstr "Pesan GDPR"
+
+#: admin/wa-admin-page.php:2065
+msgid "e.g. I have read the [gdpr_link]"
+msgstr "contoh: Saya sudah membaca [gdpr_link]"
+
+#: admin/wa-admin-page.php:2067
+#, php-format
+msgid "Use %s to display Privacy Policy page link."
+msgstr "Gunakan %s untuk menampilkan link Kebijakan Privasi."
+
+#: admin/wa-admin-page.php:2074
+msgid "Privacy Policy Page"
+msgstr "Halaman Kebijakan Privasi"
+
+#: admin/wa-admin-page.php:2098
+msgid "<strong>OneClick Chat to Order</strong> is Waiting for Your Feedback"
+msgstr "<strong>OneClick Chat to Order</strong> Menunggu Masukan"
+
+#: admin/wa-admin-page.php:2101
+msgid ""
+"<strong>OneClick Chat to Order</strong> is my second plugin and it's open "
+"source. I acknowledge that there are still a lot to fix, here and there, "
+"that's why I really need your feedback. <br>Let's get in touch and show some "
+"love by <a href=\"https://wordpress.org/support/plugin/oneclick-whatsapp-"
+"order/reviews/?rate=5#new-post\" target=\"_blank\"><strong>leaving a review</"
+"strong></a>."
+msgstr ""
+"<strong> OneClick Chat to Order</strong> adalah plugin kedua saya dan tentu "
+"saja open source. Saya menyadari bahwa masih banyak sekali yang perlu "
+"diperbaiki, karena itulah saya sangat membutuhkan masukan dari Anda. "
+"<br>Mari berkomunikasi dan tunjukkan dukungan dengan <a href=\"https://"
+"wordpress.org/support/plugin/oneclick-whatsapp-order/reviews/?rate=5#new-post"
+"\" target=\"_blank\"><strong>memberikan <a href=\"https://wordpress.org/"
+"support/plugin/oneclick-whatsapp-order/reviews/?rate=5#new-post\" target="
+"\"_blank\"><strong> review</strong></a></strong></a>."
+
+#: admin/wa-admin-page.php:2111
+msgid "Author:"
+msgstr "Developer:"
+
+#: admin/wa-admin-page.php:2113
+msgid "Walter Pinem"
+msgstr "Walter Pinem"
+
+#: admin/wa-admin-page.php:2117
+msgid "Website:"
+msgstr "Website:"
+
+#: admin/wa-admin-page.php:2119
+msgid "walterpinem.me"
+msgstr "walterpinem.me"
+
+#: admin/wa-admin-page.php:2124
+msgid "www.seniberpikir.com"
+msgstr "www.seniberpikir.com"
+
+#: admin/wa-admin-page.php:2128
+msgid "www.kerjalepas.com"
+msgstr "www.kerjalepas.com"
+
+#: admin/wa-admin-page.php:2132
+msgid "Email:"
+msgstr "Email:"
+
+#: admin/wa-admin-page.php:2134
+msgid "hello@walterpinem.me"
+msgstr "hello@walterpinem.me"
+
+#: admin/wa-admin-page.php:2137
+msgid "More:"
+msgstr "Lainnya:"
+
+#: admin/wa-admin-page.php:2139
+msgid "Complete Tutorial"
+msgstr "Tutorial Lengkap"
+
+#: admin/wa-admin-page.php:2144
+msgid "Support & Feature Request"
+msgstr "Bantuan & Permintaan Fitur"
+
+#: admin/wa-admin-page.php:2148
+msgid "Portfolio"
+msgstr "Portofolio"
+
+#: admin/wa-admin-page.php:2152
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: admin/wa-admin-page.php:2157
+msgid "Donate"
+msgstr "Donasi"
+
+#: admin/wa-admin-page.php:2164
+msgid ""
+"Created with ❤ and ☕ in Central Jakarta, Indonesia by <a href=\"https://"
+"walterpinem.me\" target=\"_blank\"><strong>Walter Pinem</strong></a>"
+msgstr ""
+"Dibuat dengan ❤ dan ☕ di Jakarta Pusat, Indonesia oleh <a href=\"https://"
+"walterpinem.me\" target=\"_blank\"><strong>Walter Pinem</strong></a>"
+
+#: admin/wa-admin-page.php:2172
+msgid "Thank you for using <br><strong>OneClick Chat to Order</strong>"
+msgstr ""
+"Terima kasih telah menggunakan <br><strong>OneClick Chat to Order</strong>"
+
+#: admin/wa-admin-page.php:2177
+msgid "Make It Easy for Customers to Reach You!"
+msgstr "Permudah Pelanggan untuk Menghubungi Anda!"
+
+#: admin/wa-admin-page.php:2181
+msgid ""
+"<strong>OneClick Chat to Order</strong> will enable you to connect your "
+"WooCommerce-powered online store with WhatsApp and make it super quick and "
+"easy for your customers to complete their order via WhatsApp."
+msgstr ""
+"<strong>OneClick Chat to Order</strong> akan memungkinkan Anda untuk "
+"menghubungkan toko online WooCommerce dengan WhatsApp dan percepat serta "
+"permudah pelanggan Anda untuk menyelesaikan pesanan mereka via WhatsApp."
+
+#: admin/wa-admin-page.php:2185
+msgid ""
+"<a href=\"https://onlinestorekit.com/oneclick-chat-to-order/\" target="
+"\"_blank\"><strong>Learn More</strong></a>"
+msgstr ""
+"<a href=\"https://onlinestorekit.com/oneclick-chat-to-order/\" target="
+"\"_blank\"><strong>Selengkapnya</strong></a>"
+
+#: admin/wa-admin-page.php:2192
+msgid ""
+"<strong style=\"color:red;\">NEW!</strong> Build a Powerful Multi-Vendor "
+"Online Marketplace"
+msgstr ""
+"<strong style=\"color:red;\">BARU!</strong> Bangun Marketplace Online yang "
+"Tangguh"
+
+#: admin/wa-admin-page.php:2196
+msgid ""
+"Seamlessly combine the power of WordPress & WooCommerce, OneClick Chat to "
+"Order, WCFM Marketplace, WCFM Frontend Manager and WhatsApp with the new and "
+"most requested add-on, <a href=\"https://onlinestorekit.com/oneclick-wcfm-"
+"connector/\" target=\"_blank\"><strong>OneClick WCFM Connector</strong></a>, "
+"that your vendors will love."
+msgstr ""
+"Satukan kekuatan WordPress & WooCommerce, OneClick Chat to Order, WCFM "
+"Marketplace, WCFM Frontend Manager dan WhatsApp dengan add-on terbaru dan "
+"yang paling banyak diminta, <a href=\"https://onlinestorekit.com/oneclick-"
+"wcfm-connector/\" target=\"_ blank\"> <strong> OneClick WCFM Connector</"
+"strong> </a>, yang pastinya akan disukai vendor Anda."
+
+#: admin/wa-admin-page.php:2200
+msgid "Help them increase their sales, increase your revenue."
+msgstr "Bantuk mereka tingkatkan penjualan, tingkatkan pendapatan Anda."
+
+#: admin/wa-admin-page.php:2204
+msgid ""
+"<a href=\"https://onlinestorekit.com/oneclick-wcfm-connector/\" target="
+"\"_blank\"><strong>Read Details</strong></a>"
+msgstr ""
+"<a href=\"https://onlinestorekit.com/oneclick-wcfm-connector/\" target="
+"\"_blank\"><strong>Baca Selengkapnya</strong></a>"
+
+#: admin/wa-admin-page.php:2211
+msgid "Watch the Complete Overview and Tutorial"
+msgstr "Tonton Video Cara Kerja dan Tutorialnya"
+
+#: admin/wa-admin-page.php:2221
+msgid "Let's Get Started"
+msgstr "Yuk, Kita Mulai"
+
+#: admin/wa-admin-page.php:2223
+msgid "Step #1:"
+msgstr "Langkah #1:"
+
+#: admin/wa-admin-page.php:2223
+msgid ""
+"Start adding your <strong>WhatsApp number</strong> on <a href=\"post-new.php?"
+"post_type=wa-order-numbers\"><strong>WhatsApp Numbers</strong></a> post "
+"type. You can add unlimited numbers! <a href=\"https://walterpinem.me/"
+"projects/oneclick-chat-to-order-mutiple-numbers-feature/?utm_source=admin-"
+"notice&utm_medium=admin-dashboard&utm_campaign=OneClick-Chat-to-Order\" "
+"target=\"_blank\"><strong>Learn more</strong></a> or <a href=\"admin.php?"
+"page=wa-order&tab=button_config\"><strong>dismiss notice</strong></a>."
+msgstr ""
+"Mulai tambahkan <strong>nomor WhatsApp</strong> di <a href=\"post-new.php?"
+"post_type=wa-order-numbers\">halaman <strong>Nomor WhatsApp</strong></a>. "
+"Anda bisa menambahkan nomor WhatsApp sebanyak-banyaknya! <a href=\"https://"
+"walterpinem.me/projects/oneclick-chat-to-order-mutiple-numbers-feature/?"
+"utm_source=admin-notice&utm_medium=admin-dashboard&utm_campaign=OneClick-"
+"Chat-to-Order\" target=\"_blank\"><strong>Baca selengkapnya</strong></a> or "
+"<a href=\"admin.php?page=wa-order&tab=button_config\"><strong>hilangkan "
+"pemberitahuan</strong></a>."
+
+#: admin/wa-admin-page.php:2224
+msgid "Step #2:"
+msgstr "Langkah #2:"
+
+#: admin/wa-admin-page.php:2224
+msgid ""
+"Show a fancy<strong> Floating Button</strong> with customized message and "
+"tooltip which you can customize easily on <a href=\"admin.php?page=wa-"
+"order&tab=floating_button\"><strong>Floating Button</strong></a> setting "
+"panel."
+msgstr ""
+"Tampilkan<strong> Tombol Mengambang</strong> dengan pesan kustom dan tooltip "
+"yang bias diatur sedemikian rupa dengan mudah di panel <a href=\"admin.php?"
+"page=wa-order&tab=floating_button\"><strong>Tombol Mengambang</strong></a>."
+
+#: admin/wa-admin-page.php:2225
+msgid "Step #3:"
+msgstr "Langkah #3:"
+
+#: admin/wa-admin-page.php:2225
+msgid ""
+"Configure some options to <strong>display or hide buttons</strong>, "
+"including the WhatsApp button on <a href=\"admin.php?page=wa-"
+"order&tab=display_option\"><strong>Display Options</strong></a> setting "
+"panel."
+msgstr ""
+"Konfigurasi beberapa pengaturan untuk <strong>menampilkan atau "
+"menyembunyikan tombol</strong>, termasuk tombol WhatsApp di panel <a href="
+"\"admin.php?page=wa-order&tab=display_option\"><strong>Opsi Tampilan</"
+"strong></a>."
+
+#: admin/wa-admin-page.php:2226
+msgid "Step #4:"
+msgstr "Langkah #4:"
+
+#: admin/wa-admin-page.php:2226
+msgid ""
+"Make your online store GDPR-ready by showing <strong>GDPR Notice</strong> "
+"right under the WhatsApp Order button on <a href=\"admin.php?page=wa-"
+"order&tab=gdpr_notice\"><strong>GDPR Notice</strong></a> setting panel."
+msgstr ""
+"Buat toko online Anda sesuai dengan kebijakan GDPR dengan menampilkan "
+"<strong>Pemberitahuan GDPR</strong> tepat di bawah tombol WhatsApp di panel "
+"<a href=\"admin.php?page=wa-order&tab=gdpr_notice\"><strong>Pemberitahuan "
+"GDPR</strong></a>."
+
+#: admin/wa-admin-page.php:2227
+msgid "Step #5:"
+msgstr "Langkah #5:"
+
+#: admin/wa-admin-page.php:2227
+msgid ""
+"Display WhatsApp button anywhere you like with a <strong>single shortcode</"
+"strong>. You can generate it with a customized message and a nice text on "
+"button on <a href=\"admin.php?page=wa-order&tab=generate_shortcode"
+"\"><strong>Generate Shortcode</strong></a> setting panel."
+msgstr ""
+"Tampilkan tombol WhatsApp di manapun Anda sudah dengan menggunakan "
+"<strong>shortcode</strong>. Anda bisa membuat shortcode disertai dengan "
+"pesan dan teks pada tombol kustom melalui panel <a href=\"admin.php?page=wa-"
+"order&tab=generate_shortcodee\"><strong>Buat Shortcode</strong></a>."
+
+#: admin/wa-admin-page.php:2228
+msgid "Step #6:"
+msgstr "Langkah #6:"
+
+#: admin/wa-admin-page.php:2228
+msgid ""
+"<strong>Have an inquiry?</strong> Find out how to reach me out on <a href="
+"\"admin.php?page=wa-order&tab=tutorial_support\"><strong>Support</strong></"
+"a> panel."
+msgstr ""
+"<p><strong>Punya pertanyaan?</strong> Temukan cara menghubungi saya di  "
+"panel<a href=\"admin.php?page=wa-order&tab=tutorial_support"
+"\"><strong>Bantuan</strong></a>."
+
+#: admin/wa-admin-page.php:2236
+msgid "Simple Chat to Order Button"
+msgstr "Tombol WhatsApp Sederhana"
+
+#: admin/wa-admin-page.php:2237
+msgid ""
+"Replace the default Add to Cart button or simply show both. Once the Chat to "
+"Order button is clicked, the message along with the product details are sent "
+"to you through WhatsApp."
+msgstr ""
+"Gantikan tombol Tambah ke Keranjang atau gunakan saja keduanya berbarengan. "
+"Saat tombol WhatsApp Order diklik, pesan dan detail produk akan terkirim ke "
+"Anda melalui WhatsApp."
+
+#: admin/wa-admin-page.php:2241
+msgid "Fancy Floating Button"
+msgstr "Tombol Mengambang Keren"
+
+#: admin/wa-admin-page.php:2242
+msgid ""
+"Make it easy for any customers/visitors to reach you out through a click of "
+"a floating WhatsApp button, displayed on the left of right with tons of "
+"customization options."
+msgstr ""
+"Permudah pelanggan/pengunjung website Anda untuk terhubung dengan Anda "
+"melalui sekali klik pada tombol WhatsApp yang mengambang, berada di sebelah "
+"kiri atau kanan dengan segudang opsi pengaturan."
+
+#: admin/wa-admin-page.php:2249
+msgid "Display This or Hide That"
+msgstr "Tampilkan atau Sembunyikan"
+
+#: admin/wa-admin-page.php:2250
+msgid ""
+"Wanna hide some buttons or elements you don't like? You have the command to "
+"rule them all. Just visit the panel and all of the options are there to "
+"configure."
+msgstr ""
+"Ingin menyembunyikan tombol atau elemen yang kurang Anda sukai? Anda punya "
+"kontrol penuh. Kunjungi saja panelnya dan semuanya ada di situ untuk "
+"dikonfigurasi."
+
+#: admin/wa-admin-page.php:2255
+msgid "Make It GDPR-Ready"
+msgstr "Sesuaikan Dengan GDPR"
+
+#: admin/wa-admin-page.php:2256
+msgid ""
+"The regulations are real and it's time to make your site ready for them. "
+"Make your site GDPR-ready with some simple configurations, really easy!"
+msgstr ""
+"Regulasi GDPR sungguh nyata dan sekarang waktunya untuk membuat website Anda "
+"siap. Buat website Anda semakin siap dengan GDPR dengan konfigurasi yang "
+"mudah!"
+
+#: admin/wa-admin-page.php:2264
+msgid ""
+"Are the previous options still not enough for you? You can extend the "
+"flexibility to display a WhatsApp button using a shortcode, which you can "
+"generate easily."
+msgstr ""
+"Apakah seluruh opsi tadi masih belum cukup untuk Anda? Anda dapat memperluas "
+"fleksibilitas untuk menampilkan tombol WhatsApp menggunakan shortcode, yang "
+"dapat Anda buat dengan mudah."
+
+#: admin/wa-admin-page.php:2269
+msgid "Comprehensive Documentation"
+msgstr "Dokumentasi Komprehensif"
+
+#: admin/wa-admin-page.php:2270
+msgid ""
+"You will not be left alone. My complete documentation or tutorial will "
+"always help and support all your needs to get started.<br /><a href="
+"\"https://www.youtube.com/watch?"
+"list=PLwazGJFvaLnBTOw4pNvPcsFW1ls4tn1Uj&v=LuURM5vZyB8\" target=\"_blank"
+"\"><strong>Watch tutorial videos</strong></a>."
+msgstr ""
+"Anda tidak akan diabaikan. Dokumentasi atau tutorial yang lengkap akan "
+"selalu membantu dan mendukung Anda untuk memulai.<br /><a href=\"https://www."
+"youtube.com/watch?list=PLwazGJFvaLnBTOw4pNvPcsFW1ls4tn1Uj&v=LuURM5vZyB8\" "
+"target=\"_blank\"><strong>Tonton video tutorial</strong></a>."
+
+#: admin/wa-admin-page.php:2276
+msgid ""
+"Created with ❤ and ☕ in Jakarta, Indonesia by <a href=\"https://walterpinem."
+"me\" target=\"_blank\"><strong>Walter Pinem</strong></a>"
+msgstr ""
+"Dibuat dengan ❤ dan ☕ di Jakarta, Indonesia oleh <a href=\"https://"
+"walterpinem.me\" target=\"_blank\"><strong>Walter Pinem</strong></a>"
+
+#: includes/buttons/wa-order-cart-page.php:149
+#: includes/buttons/wa-order-cart-page.php:172
+#: includes/buttons/wa-order-cart-page.php:195
+#: includes/buttons/wa-order-thank-you.php:204
+#: includes/buttons/wa-order-thank-you.php:227
+#: includes/buttons/wa-order-thank-you.php:250
+msgid "Discount"
+msgstr "Diskon"
+
+#: includes/buttons/wa-order-cart-page.php:198
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: includes/buttons/wa-order-cart-page.php:302
+#: includes/buttons/wa-order-thank-you.php:273
+msgid "Shipping:"
+msgstr "Pengiriman:"
+
+#: includes/buttons/wa-order-shop-archive.php:35
+#, php-format
+msgid "Complete order on WhatsApp to buy %s"
+msgstr "Selesaikan pesanan via WhatsApp untuk membeli %s"
+
+#: includes/buttons/wa-order-thank-you.php:139
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/buttons/wa-order-thank-you.php:264
+msgid "Note:"
+msgstr "Catatan:"
+
+#: includes/multiple-numbers.php:11
+msgid "WhatsApp Numbers"
+msgstr "Nomor WhatsApp"
+
+#: includes/multiple-numbers.php:13 includes/multiple-numbers.php:14
+msgid "Add WhatsApp Number"
+msgstr "Tambahkan Nomor WhatsApp"
+
+#: includes/multiple-numbers.php:55
+msgid "e.g. 6281234567890"
+msgstr "contoh: 6281234567890"
+
+#: includes/multiple-numbers.php:57
+msgid ""
+"Enter number including country code, e.g. <code><b>62</b>81234567890</code>"
+msgstr ""
+"Masukkan nomor WhatsApp disertai dengan kode negara, contoh: <code><b>62</"
+"b>81234567890</code>"
+
+#: includes/multiple-numbers.php:64
+msgid "Click here to return to <strong>Global Settings</strong> page."
+msgstr "Klik di sini untuk kembali ke <strong>Pengaturan Global</strong>."
+
+#: includes/multiple-numbers.php:114 includes/multiple-numbers.php:115
+#: includes/multiple-numbers.php:117
+msgid "WhatsApp Number updated."
+msgstr "Nomor WhatsApp diperbaharui."
+
+#: includes/multiple-numbers.php:116
+msgid "WhatsApp Number deleted."
+msgstr "Nomor WhatsApp dihapus."
+
+#: includes/multiple-numbers.php:119
+#, php-format
+msgid "WhatsApp Number restored to revision from %s"
+msgstr "Nomor WhatsApp telah dipulihkan dari %s"
+
+#: includes/multiple-numbers.php:120
+msgid "WhatsApp Number successfully added."
+msgstr "Nomor WhatsApp berhasil ditambahkan."
+
+#: includes/multiple-numbers.php:121
+msgid "WhatsApp Number saved."
+msgstr "Nomor WhatsApp tersimpan."
+
+#: includes/multiple-numbers.php:122
+msgid "WhatsApp Number submitted."
+msgstr "Nomor WhatsApp diajukan."
+
+#: includes/multiple-numbers.php:124
+#, php-format
+msgid "WhatsApp Number scheduled for: <strong>%1$s</strong>."
+msgstr "Nomor WhatsApp terjadwal: <strong>%1$s</strong>."
+
+#: includes/multiple-numbers.php:126
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/multiple-numbers.php:128
+msgid "WhatsApp Number draft updated."
+msgstr "Draft nomor WhatsApp diperbaharui."
+
+#: includes/multiple-numbers.php:165
+msgid ""
+"<p><strong>OneClick Chat to Order</strong> requires <strong> WhatsApp Number "
+"to be set!</strong></p>"
+msgstr ""
+"<p><strong>OneClick Chat to Order</strong> memerlukan <strong style=\"color:"
+"red;\"> nomor WhatsApp agar bisa bekerja dengan baik!</strong></p>"
+
+#: includes/multiple-numbers.php:166 includes/multiple-numbers.php:190
+#: includes/whatsapp-button.php:217
+#, php-format
+msgid "<div class=\"error\">%s</div>"
+msgstr "<div class=\"error\">%s</div>"
+
+#: includes/multiple-numbers.php:187
+msgid ""
+"<p><strong>OneClick Chat to Order</strong> requires <strong style=\"color:"
+"red;\"> WhatsApp number to be set!</strong> Please add a valid and active "
+"WhatsApp number.</p>"
+msgstr ""
+"<p><strong>OneClick Chat to Order</strong> memerlukan <strong style=\"color:"
+"red;\"> nomor WhatsApp agar bisa bekerja dengan baik!</strong> Mohon "
+"tambahkan nomor WhatsApp yang aktif dan valid.</p>"
+
+#: includes/wa-button.php:28
+msgid ""
+"<strong style=\"color:red;\">Important!</strong> With <strong>OneClick Chat "
+"to Order</strong>, you can now set multiple WhatsApp numbers. Please <a href="
+"\"edit.php?post_type=wa-order-numbers\"><strong>set it here</strong></a> to "
+"get started. <a href=\"https://walterpinem.me/projects/oneclick-chat-to-"
+"order-mutiple-numbers-feature/?utm_source=admin-notice&utm_medium=admin-"
+"dashboard&utm_campaign=OneClick-Chat-to-Order\" target=\"_blank"
+"\"><strong>Learn more</strong></a>. <a href=\"admin.php?page=wa-"
+"order&tab=button_config\">Dismiss</a>"
+msgstr ""
+"<strong style=\"color:red;\">Penting!</strong> Dengan <strong>OneClick Chat "
+"to Order</strong>, Anda kini bisa menggunakan banyak nomor WhatsApp. Mohon "
+"<a href=\"edit.php?post_type=wa-order-numbers\"><strong>atur di sini</"
+"strong></a> untuk memulai. <a href=\"https://walterpinem.me/projects/"
+"oneclick-chat-to-order-mutiple-numbers-feature/?utm_source=admin-"
+"notice&utm_medium=admin-dashboard&utm_campaign=OneClick-Chat-to-Order\" "
+"target=\"_blank\"><strong>Baca selengkapnya</strong></a>. <a href=\"admin."
+"php?page=wa-order&tab=button_config\">Hilangkan Pesan</a>"
+
+#: includes/wa-button.php:30
+#, php-format
+msgid ""
+"<div class=\"notice wa-order-notice-dismissible notice-warning is-dismissible"
+"\">%s</div>"
+msgstr ""
+"<div class=\"notice wa-order-notice-dismissible notice-warning is-dismissible"
+"\">%s</div>"
+
+#: includes/wa-metabox.php:7
+msgid "OneClick"
+msgstr "OneClick"
+
+#: includes/wa-metabox.php:36
+msgid "Assign a Number?"
+msgstr "Pilih Nomor Lain?"
+
+#: includes/wa-metabox.php:45
+msgid "Select Number"
+msgstr "Pilih Nomor"
+
+#: includes/wa-metabox.php:46
+msgid "Select WhatsApp number from the list you have created."
+msgstr "Pilih nomor WhatsApp dari daftar yang sudah dibuat."
+
+#: includes/wa-metabox.php:55
+msgid "Buy on WhatsApp"
+msgstr "Beli via WhatsApp"
+
+#: includes/wa-metabox.php:56
+msgid "Button Text"
+msgstr "Teks Pada Tombol"
+
+#: includes/wa-metabox.php:57
+msgid ""
+"Add custom button text. This will override the value on the plugin setting "
+"page."
+msgstr "Tambahkan teks pada tombol khusus untuk produk ini."
+
+#: includes/wa-metabox.php:65
+msgid "Hello, I want to buy this product"
+msgstr "Halo, saya ingin membeli produk ini"
+
+#: includes/wa-metabox.php:66
+msgid ""
+"Add custom message. This will override the value of Single Product Page "
+"custom message text on the plugin setting page."
+msgstr ""
+"Tambahkan pesan kustom. Pesan ini akan menggantikan pesan kustom yang telah "
+"diset di halaman pengaturan plugin bagian Halaman Produk."
+
+#: includes/wa-metabox.php:74
+msgid "This will hide WhatsApp button only for this product."
+msgstr "Opsi ini akan menyembunyikan tombol WhatsApp khusus produk ini."
+
+#: includes/wa-metabox.php:75
+msgid "Hide WhatsApp button?"
+msgstr "Sembunyikan tombol WhatsApp?"
+
+#: includes/wa-metabox.php:81
+msgid "This will hide Add to Cart button only for this product."
+msgstr ""
+"Opsi ini akan menyembunyikan tombol Tambah ke Keranjang khusus produk ini."
+
+#: includes/wa-metabox.php:88
+msgid ""
+"This will force the Add to Cart button to be shown only for this product, "
+"even if you check the <strong>\"Hide Add to Cart button?\"</strong> option "
+"on <strong>Global Settings</strong> page."
+msgstr ""
+"Opsi ini akan memaksa tombol Tambah ke Keranjang untuk tetap tampil hanya di "
+"produk ini, bahkan bila pun Anda sudah menyentang opsi <strong>\"Sembunyikan "
+"tombol Tambah ke Keranjang?\"</strong> di halaman <strong>Pengaturan Global</"
+"strong>."
+
+#: includes/wa-metabox.php:89
+msgid "Force Show Add to Cart button?"
+msgstr "Paksa tampilkan tombol Tambah ke Keranjang?"
+
+#: includes/whatsapp-button.php:214
+msgid ""
+"<p><strong>WhatsApp Order</strong> requires <strong> WhatsApp Number!</"
+"strong> <a href=\"?page=whatsapp-order&tab=button_config\"><strong>Click "
+"here</strong></a> to fill it.</p>"
+msgstr ""
+"<p><strong>WhatsApp Order</strong> wajib diisi dengan <strong> Nomor "
+"WhatsApp!</strong> <a href=\"?page=whatsapp-order&tab=button_config"
+"\"><strong>Klik di sini</strong></a> untuk mengisinya.</p>"
+
+#: whatsapp-order.php:104
+msgid "Buy Me a Coffee ☕"
+msgstr "Traktir Kopi ☕"
+
+#~ msgid ""
+#~ "Below configurations are <strong style=\"color:red;\">required</strong>. "
+#~ "Please complete this section first."
+#~ msgstr ""
+#~ "Bagian ini merupakan pengaturan <strong style=\"color:red;\">wajib</"
+#~ "strong>. Mohon lengkapi bagian ini terlebih dahulu."
+
+#~ msgid "www.dequixote.com"
+#~ msgstr "www.dequixote.com"
+
+#~ msgid "Other Projects"
+#~ msgstr "Karya Lainnya"
+
+#~ msgid ""
+#~ "<strong>OneClick WhatsApp Order</strong> will make it easier for your "
+#~ "customers to order your products directly through WhatsApp with a single "
+#~ "click on a single product page or a floating button. Make them well-"
+#~ "engaged and fasten the purchase process."
+#~ msgstr ""
+#~ "<strong>OneClick WhatsApp Order</strong> akan mempermudah pelanggan dalam "
+#~ "memesan produk langsung melalui WhatsApp hanya dengan sekali klik di "
+#~ "halaman produk atau melalui tombol mengambang. Dekatkan diri dengan "
+#~ "mereka dan percepat proses pemesanan."
+
+#~ msgid ""
+#~ "Start adding your <strong>WhatsApp number</strong> including custom "
+#~ "message and button text on <a href=\"admin.php?page=whatsapp-"
+#~ "order&tab=button_config\"><strong>Button Configurations</strong></a> "
+#~ "setting panel."
+#~ msgstr ""
+#~ "Masukkan <strong>nomor WhatsApp</strong> termasuk pesan kustom dan teks "
+#~ "pada tombol di panel <a href=\"admin.php?page=whatsapp-"
+#~ "order&tab=button_config\"><strong>Pengaturan Tombol</strong></a>."
+
+#~ msgid "Tooltip Content"
+#~ msgstr "Konten Tooltip"
+
+#~ msgid "Save Options"
+#~ msgstr "Simpan Pengaturan"

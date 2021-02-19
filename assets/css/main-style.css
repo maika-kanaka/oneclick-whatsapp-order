@@ -1,0 +1,287 @@
+@charset "UTF-8";
+.wa-order-gdprchk label {
+    font-size: inherit;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+.wa-order-gdprchk input[type=checkbox] {
+    position: relative;
+    bottom: 0px;
+    border: 1px solid #b4b9be;
+    background: #fff;
+    color: #555;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    width: 1.5rem!important;
+    min-width: 1.5rem!important;
+    height: 1.5rem!important;
+    margin: -4px 4px 0 0;
+    outline: 0;
+    padding: 0!important;
+    vertical-align: middle;
+    width: 16px;
+    min-width: 16px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    transition: .05s border-color ease-in-out;
+}
+
+/*WA button after short description*/
+.woocommerce-product-details_short-description .wa-order-button, 
+.woocommerce-product-details_short-description .gdpr_wa_button_input,
+.woocommerce-Tabs-panel--description .wa-order-button,
+.woocommerce-Tabs-panel--description .gdpr_wa_button_input {
+    margin: 30px auto 30px;
+}
+
+.wa-order-gdprchk input[type=checkbox] + label {
+    opacity: .5!important;
+}
+.wa-order-gdprchk input[type=checkbox]:checked + label {
+    opacity: 1!important;
+}
+
+.wa-order-button, 
+.gdpr_wa_button_input {
+    background: #25d366!important;
+    color: #ffffff!important;
+    transform: translateY(0px);
+    text-decoration: none!important;
+    outline: 0!important;
+    font-size: inherit!important;
+    -webkit-box-shadow: 0 4px 7px 0 rgba(0,0,0,.25);
+    -moz-box-shadow: 0 4px 7px 0 rgba(0,0,0,.25);
+    box-shadow: 0 4px 7px 0 rgba(0,0,0,.25);
+    transition: top .1s ease;
+    -webkit-transition: top .1s ease;
+}
+
+a.wa-order-checkout,
+a.wa-order-thankyou {
+    background: #25d366!important;
+    color: #ffffff!important;
+    transform: translateY(0px);
+    text-decoration: none!important;
+    outline: 0!important;
+    -webkit-box-shadow: 0 4px 7px 0 rgba(0,0,0,.25);
+    -moz-box-shadow: 0 4px 7px 0 rgba(0,0,0,.25);
+    box-shadow: 0 4px 7px 0 rgba(0,0,0,.25);
+    transition: top .1s ease;
+    -webkit-transition: top .1s ease;
+}
+
+.shortcode_wa_button, 
+.shortcode_wa_button_nt {
+    background: #25d366!important;
+    border-radius: 5px!important;
+    color: #ffffff!important;
+    font-size: 16px!important;
+    font-weight: bold!important;
+    position: relative!important;
+    display: inline-flex!important;
+    width: auto!important;
+    transition: all .3s !important;
+    align-items: center!important;
+    box-shadow: 0 2px 2px 0px rgba(45, 62, 79, .3) !important;
+    text-transform: none!important;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 4px 7px 0 rgba(0,0,0,.25);
+    -moz-box-shadow: 0 4px 7px 0 rgba(0,0,0,.25);
+    box-shadow: 0 4px 7px 0 rgba(0,0,0,.25);
+    transition: top .1s ease;
+    -webkit-transition: top .1s ease;
+}
+label.wa-button-gdpr2 {
+    display: inline-block;
+}
+.wa-order-gdprchk {
+    margin-top: 30px;
+}
+
+.wa-order-thankyou:before,
+a.wa-order-checkout:before,
+.gdpr_wa_button_input:before, 
+.wa-order-button:before,
+a.wa-shop-button:before {
+    /*font-family: 'Font Awesome 5 Brands' !important;*/
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23fff" d="M3.516 3.516c4.686-4.686 12.284-4.686 16.97 0 4.686 4.686 4.686 12.283 0 16.97a12.004 12.004 0 01-13.754 2.299l-5.814.735a.392.392 0 01-.438-.44l.748-5.788A12.002 12.002 0 013.517 3.517zm3.61 17.043l.3.158a9.846 9.846 0 0011.534-1.758c3.843-3.843 3.843-10.074 0-13.918-3.843-3.843-10.075-3.843-13.918 0a9.846 9.846 0 00-1.747 11.554l.16.303-.51 3.942a.196.196 0 00.219.22l3.961-.501zm6.534-7.003l-.933 1.164a9.843 9.843 0 01-3.497-3.495l1.166-.933a.792.792 0 00.23-.94L9.561 6.96a.793.793 0 00-.924-.445 1291.6 1291.6 0 00-2.023.524.797.797 0 00-.588.88 11.754 11.754 0 0010.005 10.005.797.797 0 00.88-.587l.525-2.023a.793.793 0 00-.445-.923L14.6 13.327a.792.792 0 00-.94.23z"/></svg>')!important;
+    color: #ffffff;
+    font-size: inherit;
+    font-weight: inherit!important;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    margin-bottom: -4px;
+    margin-top: -5px;
+    width: 0.875em;
+    height: auto;
+}
+.gdpr_wa_button_input:before {
+    margin-right: 3.5px;
+}
+a.wa-shop-button:before,
+.wa-order-button:before,
+a.wa-order-thankyou:before,
+a.wa-order-checkout:before {
+    margin-right: 7px;
+}
+a.wa-order-thankyou {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    word-break: break-word;
+    padding: 10px 15px;
+    margin: 20px auto 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0px;
+}
+.thankyoutitle {
+    margin-top: 20px;
+    font-size: 1.875em;
+    font-size: 30px;
+    font-weight: 600;
+}
+.thankyoucustom_wrapper {
+    background: #f9f9f9;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+.subtitle {
+    font-size: 20px;
+    margin: auto;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+a.wa-shop-button {
+    background-color: #25D366 !important;
+    color: #fff!important;
+    border: none!important;
+}
+a.shortcode_wa_button:before, a.shortcode_wa_button_nt:before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23fff" d="M3.516 3.516c4.686-4.686 12.284-4.686 16.97 0 4.686 4.686 4.686 12.283 0 16.97a12.004 12.004 0 01-13.754 2.299l-5.814.735a.392.392 0 01-.438-.44l.748-5.788A12.002 12.002 0 013.517 3.517zm3.61 17.043l.3.158a9.846 9.846 0 0011.534-1.758c3.843-3.843 3.843-10.074 0-13.918-3.843-3.843-10.075-3.843-13.918 0a9.846 9.846 0 00-1.747 11.554l.16.303-.51 3.942a.196.196 0 00.219.22l3.961-.501zm6.534-7.003l-.933 1.164a9.843 9.843 0 01-3.497-3.495l1.166-.933a.792.792 0 00.23-.94L9.561 6.96a.793.793 0 00-.924-.445 1291.6 1291.6 0 00-2.023.524.797.797 0 00-.588.88 11.754 11.754 0 0010.005 10.005.797.797 0 00.88-.587l.525-2.023a.793.793 0 00-.445-.923L14.6 13.327a.792.792 0 00-.94.23z"/></svg>')!important;
+    font-size: 20px;
+    font-weight: 500;
+    vertical-align: top;
+    text-decoration: none!important;
+    outline: 0!important;
+    width: 0.875em;
+    height: auto;
+    margin-right: 7px;
+}
+a.shortcode_wa_button:before, {
+    margin-right: 8px;
+}
+.wa-order-button, .gdpr_wa_button_input {
+    padding-left: 25px!important;
+    padding-right: 25px!important;
+}
+.shortcode_wa_button, .shortcode_wa_button_nt {
+    padding: 7px 25px!important;
+    opacity: 1;
+    text-decoration: none!important;
+    outline: 0!important;
+}
+a.wa-shop-button:hover, a.wa-order-checkout:hover, a.wa-order-thankyou:hover, .wa-order-class:hover, .wa-order-button:hover, .shortcode_wa_button:hover, .shortcode_wa_button_nt:hover, .gdpr_wa_button_input:hover {
+    color: #ffffff !important;
+    background: #21bd5b;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px -5px rgba(45, 62, 79, .3) !important;
+    transition: all ease-in-out 300ms;
+}
+button.gdpr_wa_button_input:disabled:hover, button.gdpr_wa_button_input:disabled {
+    opacity: .5!important;
+    cursor: not-allowed;
+}
+
+button.gdpr_wa_button_input:disabled:hover,
+button.gdpr_wa_button_input:disabled {
+    opacity: .5!important;
+}
+button.gdpr_wa_button_input:disabled {
+    cursor: not-allowed;
+}
+
+.floating_button {
+    position: fixed !important;
+    width: 60px !important;
+    height: 60px !important;
+    bottom: 20px !important;
+    background-color: #25D366 !important;
+    color: #ffffff !important;
+    border-radius: 50px !important;
+    text-align: center !important;
+    box-shadow: 0 8px 25px -5px rgba(45, 62, 79, .3) !important;
+    z-index: 9999999 !important;
+    text-decoration: none;
+}
+
+.label-container {
+    position: fixed !important;
+    bottom: 33px !important;
+    display: table !important;
+    visibility: hidden !important;
+    z-index: 9999999 !important; 
+}
+
+.label-text {
+    color: #43474e!important;
+    background: #f5f7f9!important;
+    display: inline-block;
+    padding: 7px !important;
+    border-radius: 3px !important;
+    font-size: 14px;
+    bottom: 15px;
+}
+
+a.floating_button + div.label-container {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+}
+
+a.floating_button:hover div.label-container,
+a.floating_button:hover div.label-text {
+  visibility: visible!important;
+  opacity: 1;
+}
+
+.floating_button:before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30px" height="30px"><path fill="%23fff" d="M3.516 3.516c4.686-4.686 12.284-4.686 16.97 0 4.686 4.686 4.686 12.283 0 16.97a12.004 12.004 0 01-13.754 2.299l-5.814.735a.392.392 0 01-.438-.44l.748-5.788A12.002 12.002 0 013.517 3.517zm3.61 17.043l.3.158a9.846 9.846 0 0011.534-1.758c3.843-3.843 3.843-10.074 0-13.918-3.843-3.843-10.075-3.843-13.918 0a9.846 9.846 0 00-1.747 11.554l.16.303-.51 3.942a.196.196 0 00.219.22l3.961-.501zm6.534-7.003l-.933 1.164a9.843 9.843 0 01-3.497-3.495l1.166-.933a.792.792 0 00.23-.94L9.561 6.96a.793.793 0 00-.924-.445 1291.6 1291.6 0 00-2.023.524.797.797 0 00-.588.88 11.754 11.754 0 0010.005 10.005.797.797 0 00.88-.587l.525-2.023a.793.793 0 00-.445-.923L14.6 13.327a.792.792 0 00-.94.23z"/></svg>')!important;
+    position: relative !important;
+    color: #ffffff !important;
+    font-size: 30px !important;
+    display: block !important;
+    text-align: center !important;
+    width: 60px;
+    top: 0px !important;
+    speak: none !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    line-height: 1 !important;
+    text-align: center !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    margin-top: 15px !important;
+}
+.floating_button a:before {
+    outline: 0!important;
+    text-decoration: none!important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .floating_button {
+        bottom: 10px;     
+    }
+}
